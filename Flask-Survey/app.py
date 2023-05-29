@@ -7,7 +7,7 @@ debug = DebugToolbarExtension(app)
 app = Flask(__name__)
 
 app.config['DEBUG_TB_INTERCEPT_REDIRECTS'] = False
-
+app.config['SECRET_KEY'] = "it be a secret"
 RESPONSES_KEY = "responses"
 
 @app.route("/")
