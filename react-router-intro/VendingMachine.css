@@ -1,0 +1,38 @@
+.VendingMachine-container {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  
+  .VendingMachine-container img {
+    width: 45%;
+    height: 85vh;
+  }
+  
+  .VendingMachine-container-title {
+    width: auto;
+    color: rgb(255, 0, 140);
+  }
+  
+  .VendingMachine-container-options {
+    width: 20%;
+  }
+  
+  .VendingMachine-container-options a {
+    font-weight: 400;
+    color: rgb(255, 0, 140);
+    text-decoration: underline;
+    cursor: pointer;
+    margin: 1rem 0;
+    transition: 0.2s linear;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .VendingMachine-container-options a:hover {
+    opacity: 0.75;
+  }

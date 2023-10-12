@@ -1,0 +1,22 @@
+.Soda {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    justify-items: center;
+    height: 85vh;
+  }
+  
+  .Soda img {
+    animation: spin 2s linear infinite;
+    width: 30vh;
+    background: rgba(0, 0, 0, 0);
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
